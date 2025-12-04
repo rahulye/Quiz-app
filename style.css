@@ -1,0 +1,36 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 0.8rem;
+}
+
+.question-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.option-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.option-wrapper button{
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.next-btn {
+  padding: 0.3rem;
+  background-color: gray;
+}
+
