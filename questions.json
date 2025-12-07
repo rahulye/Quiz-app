@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Where is the biggest rock climbing gym?",
+    "options": [
+      { "text": "Norway", "result": true },
+      { "text": "Hungary", "result": false },
+      { "text": "Finland", "result": false },
+      { "text": "USA", "result": false }
+    ]
+  },
+  {
+    "question": "Where is Mount Everest located?",
+    "options": [
+      { "text": "Nepal", "result": true },
+      { "text": "India", "result": false },
+      { "text": "China", "result": false },
+      { "text": "Japan", "result": false }
+    ]
+  }
+]
