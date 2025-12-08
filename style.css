@@ -29,8 +29,14 @@
   border: 1px solid black;
 }
 
+.question-wrapper button:hover:disabled{
+  cursor: no-drop;
+}
+
 .next-btn {
   padding: 0.3rem;
   background-color: gray;
 }
+
+
 
