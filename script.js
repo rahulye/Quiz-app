@@ -56,6 +56,7 @@ function showNext() {
   if( currentIndex < questions.length) {
     displayQuestions(currentIndex);
   } else {
+    stopTimerBar();
     optionsElement.innerHTML = "";
     questionElement.innerHTML = `Your Score is ${score}/${questions.length}`; 
     nextElement.textContent = "Restart";
