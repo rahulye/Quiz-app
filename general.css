@@ -5,6 +5,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   /* background : linear-gradient(80deg, rgba(0, 34, 255, 0.899), rgb(20, 84, 130)); */
   background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
